@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+    margin-top: 20px;
+    color: #1e1e80;
+    margin-bottom: 0;
+}
+h2 {
+    color: #fbf451;
+}
+
+header {
+    background-image: url('img/bandeiragrande.jpg'); 
+    height: 150px;
+}
+header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ddd;
+    margin-top:0;
+}
+header h2 {
+    margin-top: 20px;
+}
+ul li {
+    text-decoration: none;
+    display: flex;
+    margin-top: 3px;
+}
+footer {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+footer a {
+    color: #1e1e80;
+    text-decoration: none;
+    transition: .5;
+}
+.sec-2 h2 {
+    color: #1e1e80;
+}
+.image img {
+    height: 500px;
+    border:2px solid #1e1e80;
+}
+.image {
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container3 {
+    margin-left: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.infos-principal {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+a:hover{
+    color: #000000;
+}
